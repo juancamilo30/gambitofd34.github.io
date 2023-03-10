@@ -1,3 +1,16 @@
 body {
-    background-color: rgb(33, 52, 216);
+    background: linear-gradient(#3551af, #ca53ca);  
+}
+img{
+    width: 200px;/*ancho de la imagen*/
+    height: 200px;/*alto de la imagen*/
+}
+img:hover{
+    background: linear-gradient(#6f054f, #ba87b5);
+}
+th{
+    color: aliceblue;
+}
+td{
+    color: white;
 }
