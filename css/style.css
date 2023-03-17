@@ -1,6 +1,5 @@
-body {
-    background: linear-gradient(#3551af, #ca53ca);  
-}
+
+html {height: 100%;}body {background-image: linear-gradient(#d1c6ef, rgb(92, 105, 199));}
 img{
     width: 200px;/*ancho de la imagen*/
     height: 200px;/*alto de la imagen*/
@@ -14,4 +13,16 @@ th{
 td{
     color: white;
 }
+input{
+    border-radius: 3px;
+    border: 3px solid rgb(161, 148, 244);
+    background-color: #a18499;
+}
 
+.tipoinputs{
+    background-color: rgb(140, 166, 142);
+}
+#nombrepersona{
+    height: 15px;
+
+}
