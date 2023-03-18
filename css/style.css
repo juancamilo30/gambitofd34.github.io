@@ -15,12 +15,12 @@ td{
 }
 input{
     border-radius: 3px;
-    border: 3px solid rgb(161, 148, 244);
-    background-color: #a18499;
+    border: 3px solid rgb(48, 28, 182);
+    background-color: #b1baeb;
 }
 
 .tipoinputs{
-    background-color: rgb(140, 166, 142);
+    background-color: rgb(182, 215, 243);
 }
 #nombrepersona{
     height: 15px;
