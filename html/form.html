@@ -1,26 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="description" content="en esta pagina encontras un formulario">
+    <meta name="author" content="Camilo">
+    <meta name="google" content="nositelinkssearchbox">
+    <meta name="google" content="notranslate">
+    <meta name="robots" content="index, nofollow">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
+    <link rel="icon" href="../img/icon.png">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <h1>bienvenido a formulario</h1>
-    <fielset>
-        <form action="">
-            <label for="">nombre completo</label>
-            <input type="text"> 
-
-            <label for="">direccion</label>
-            <input type="text">
-
-            <label for="">observacion</label>
-            <input type="text">
-
-            <button>enviar</button>
-        </form>
-    </fielset>
+    <a href="../index.html" target="_self">Página de inicio</a>
+    <h1>Bienvenido a formulario</h1>
+    <h2>Formulario </h2>
+    <input type="text" placeholder="Primer nombre" id="nombrepersona" class="tipoinputs" required>
+    <br>
+    <input type="text" placeholder="Segundo nombre" required> 
+    <input type="text" placeholder="Primer apellido" required>
+    <input type="text" placeholder="Segundo Apellido" >
+    <input type="password" placeholder="Contraseña" class="tipoinputs" required>
+    <input type="date" class="tipoinputs">
+    <input type="file">
+    <input type="color">
+    <input type="checkbox">
+    <br>
+    <label for="sexo">SEXO:</label>
+    Masculino:<input type="radio" name="sexo" id="mas" value="H">
+    Femenino:<input type="radio" name ="sexo" id="fem" value="M">
+    <br>
+    <input type="email" placeholder="Email">
+    <input type="tel" placeholder="telefono">
+    <input type="number" placeholder="Numero" min="0" name="" id="">
+    <input type="search" placeholder="Buscar" name="" id="">
+    <br>
+    <textarea name="" placeholder="Texto" id="" cols="10" rows="5"></textarea>
+    <br>
+    <input type="range" min="0" max="5" step="1">
 </body>
 </html>
